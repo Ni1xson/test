@@ -1,15 +1,15 @@
 ﻿
-string[] ArrayOne = new string[5] {"123", "23", "hello", "world", "res"};
+string[] ArrayOne = new string[5] { "2", "helly", "hello", "world", "43" };
 string[] ArrayTwo = new string[ArrayOne.Length];
 void SecondArray(string[] ArrayOne, string[] ArrayTwo)
 {
     int count = 0;
     for (int i = 0; i < ArrayOne.Length; i++)
     {
-    if(ArrayOne[i].Length <= 3)
+        if (ArrayOne[i].Length <= 3)
         {
-        ArrayTwo[count] = ArrayOne[i];
-        count++;
+            ArrayTwo[count] = ArrayOne[i];
+            count++;
         }
     }
 }
